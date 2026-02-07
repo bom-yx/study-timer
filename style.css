@@ -1,0 +1,65 @@
+body {
+  background-color: #FAF0DC; /*cream  background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title-box {
+  text-align: center; /* centers title */
+  background-color: #FDF0AC; /* soft yellow background */
+  border: 7px solid #FCE992; /*cute yellow border */
+  padding: 20px;
+  font-family: 'Pixelify Sans', sans-serif;
+  border-radius: 20px;
+  width: 550px;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-color: #EFA6AA; /* soft pink background */
+  border: 7px solid #EC8893; /* strawberry pink border */
+  width: 400px; /* small box */
+  height: 200px;
+  margin: 0 auto
+}
+#timer {
+  color:  #432616; /* brown text */
+  font-size: 200px; /* large timer */
+  font-family: 'Jersey 10', sans-serif;
+}
+.buttons button {
+  background-color: #D2B48C; /* light brown background */
+  color: #6F4E37; /* dark brown icons */
+  border: 4px solid #6F4E37; /* dark brown border */
+  font-size: 30px; /* large buttons */
+  border-radius: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.title-box {
+  color: #432616; /* brown text color */
+  font-size: 40px; /* big heading */
+}
+.timer {
+  border-radius: 20px;
+}
+.title-box {
+  margin-bottom: 85px;
+  margin-top: 40px;
+}
+.option-buttons button {
+   background-color: #D2B48C; /* light brown background */
+  color: #6F4E37; /* dark brown icons */
+  border: 4px solid #6F4E37; /* dark brown border */
+  font-size: 30px; /* large buttons */
+  border-radius: 12px;
+   font-family: "Pixelify Sans", sans-serif;
+}
+.buttons,
+.option-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 16px auto;
+}
